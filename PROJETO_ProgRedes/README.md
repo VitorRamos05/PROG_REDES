@@ -1,4 +1,4 @@
-                    PROJETO - Aplicação Cliente/Servidor usando BOT no Telegram.
+                            PROJETO - Aplicação Cliente/Servidor usando BOT no Telegram.
 
 Tipo de Protocolo:
 
