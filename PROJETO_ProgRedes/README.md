@@ -18,18 +18,18 @@ garantir que os usuários recebam os dados corretos.
 
 Lista de Comandos que o Bot estará executando:
 
--> help: Retorna uma mensagem de ajuda, como um breve texto sobre o que o bot pode fazer e uma lista de comandos;
+-> /help: Retorna uma mensagem de ajuda, como um breve texto sobre o que o bot pode fazer e uma lista de comandos;
 
--> history: Retorna o historico de navegação;
+-> /history: Retorna o historico de navegação;
 
--> conf: Retorna as opções de configuração;
+-> /conf: Retorna as opções de configuração;
 
--> start: Inicia a interação com o usuário;
+-> /start: Inicia a interação com o usuário;
 
--> connect: Conecta-se ao servidor;
+-> /connect: Conecta-se ao servidor;
 
--> disconnect: Desconecta-se do servidor;
+-> /disconnect: Desconecta-se do servidor;
 
--> pause: Pausa a comunicação com o servidor;
+-> /pause: Pausa a comunicação com o servidor;
 
--> resume: retoma a comunicação com o servidor.
+-> /resume: retoma a comunicação com o servidor.
