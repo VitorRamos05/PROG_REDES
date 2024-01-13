@@ -27,8 +27,6 @@ def lidar_com_cliente(conexao, endereco):
         if chave_servidor in mapeamento_chave_servidor:
             descricao_servidor = mapeamento_chave_servidor[chave_servidor]
             conexao.send(descricao_servidor.encode(CODIFICACAO))
-
-            # Processa o comando recebido do cliente
             resposta = processar_mensagem(chave_servidor)
             conexao.sendall(resposta.encode(CODIFICACAO))
 
