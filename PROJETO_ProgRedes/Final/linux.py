@@ -1,4 +1,5 @@
 import platform, subprocess, socket, os, sqlite3
+from browser_history.browsers import Chrome, Edge, Firefox
 
 def obter_informacao_memoria():
     try:
