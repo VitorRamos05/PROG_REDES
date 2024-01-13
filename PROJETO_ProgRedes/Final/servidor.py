@@ -7,14 +7,14 @@ TAMANHO_BUFFER = 512
 CODIFICACAO = 'utf-8'
 
 mapeamento_key_server = {
-    'help': 'Retorna uma mensagem de ajuda...',
-    'history': 'Retorna o historico de navegação',
-    'conf': 'Retorna as opções de configuração',
-    'start': 'Inicia a interação com o usuário',
-    'connect': 'Conecta-se ao servidor',
-    'disconnect': 'Desconecta-se do servidor',
-    'pause': 'Pausa a comunicação com o servidor',
-    'resume': 'retoma a comunicação com o servidor'
+    '/help': 'Retorna uma mensagem de ajuda...',
+    '/history': 'Retorna o historico de navegação',
+    '/conf': 'Retorna as opções de configuração',
+    '/start': 'Inicia a interação com o usuário',
+    '/connect': 'Conecta-se ao servidor',
+    '/disconnect': 'Desconecta-se do servidor',
+    '/pause': 'Pausa a comunicação com o servidor',
+    '/resume': 'retoma a comunicação com o servidor'
 }
 
 def lidar_com_cliente(conexao, endereco):
