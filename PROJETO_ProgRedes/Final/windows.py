@@ -1,7 +1,4 @@
-import platform
-import subprocess
-import os
-import sqlite3
+import platform, subprocess, os, sqlite3
 from browser_history.browsers import Chrome, Edge, Firefox
 
 def obter_informacoes_hardware():
